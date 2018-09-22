@@ -15,20 +15,9 @@
 	body {background:#000}
 	a{color:#3b5998}
 	a:hover{text-decoration:underline}
-	img{max-width:768px;width:80%;margin:0 2rem}
 	#c{color:#fff;font:700 small-caps normal 2rem/150% Arial,Helvetica,sans-serif;left:0;margin:5rem auto auto;text-align:center;top:50%;width:100%}
-	.fb{
-		position: relative;
-		padding: 0;
-		padding-top: 55px;
-	}
-	.fb-like{
-		position: absolute;
-		top: 50%;
-		left: 50%;
-		margin-right: -50%;
-		transform: translate(-50%, -50%);
-	}
+	#poster img{max-width:768px;width:80%;margin:0 2rem}
+	.ico {margin:40px}
 </style>
 <body>
 	<div id="c">
@@ -36,27 +25,8 @@
 		<p>
 		<iframe src="http://free.timeanddate.com/countdown/i5mr5904/n102/cf12/cm0/cu4/ct0/cs1/ca0/co0/cr0/ss0/cacfff/cpcfff/pc000/tcfff/fs100/szw576/szh243/iso2018-10-13T18:30:00" allowTransparency="true" frameborder="0" width="200" height="52"></iframe><br>
 		until our next show:<br>
-		<a href="https://www.facebook.com/events/1886778831412570/"><img src="20181013-1830.jpg"></a></p>
-		<p><a href="https://fb.com/themongcocks/">Check us out on Facebook</a></p>
-	</div>
-
-	<div id="fb-root"></div>
-	<script>(function(d, s, id) {
-	  var js, fjs = d.getElementsByTagName(s)[0];
-	  if (d.getElementById(id)) return;
-	  js = d.createElement(s); js.id = id;
-	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=769629493121093";
-	  fjs.parentNode.insertBefore(js, fjs);
-	}(document, 'script', 'facebook-jssdk'));</script>
-
-	<div class="fb">
-		<div class="fb-like" 
-		data-href="https://www.facebook.com/themongcocks" 
-		data-colorscheme="dark" 
-		data-layout="standard" 
-		data-action="like" 
-		data-show-faces="true">
-		</div>
+		<a href="https://www.facebook.com/events/1886778831412570/" target="_blank"><img id="poster" src="20181013-1830.jpg"></a></p>
+		<p><a href="https://fb.com/themongcocks/" target="_blank"><img class="ico" src="fb.png"></a> <a href="https://instagram.com/themongcocks/" target="_blank"><img class="ico" src="ig.png"></a> <a href="https://twitter.com/mongcocks/" target="_blank"><img class="ico" src="tw.png"></a></p>
 	</div>
 </body>
 </html>
