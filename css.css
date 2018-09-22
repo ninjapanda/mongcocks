@@ -1,0 +1,31 @@
+body {background:#000}
+a{color:#fff;text-decoration:none}
+a:hover{text-decoration:underline}
+ul.topnav {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    background-color:#000;
+}
+ul.topnav li {float: left;}
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+ul.topnav li a:hover:not(.active) {background-color: #333;}
+ul.topnav li a.active {background-color: #666;}
+ul.topnav li.right {float: right;}
+@media screen and (max-width: 600px){
+    ul.topnav li.right, 
+    ul.topnav li {float: none;}
+}
+#c{color:#fff;font:700 small-caps normal 1rem/150% Arial,Helvetica,sans-serif;left:0;text-align:center;top:50%;width:100%}
+.ico {margin:40px}
+.poster {max-width:768px;width:80%;margin:0 2rem}
+.past {max-width:300px}
+.cocks{margin:0 auto 50px;width:50%}
+.tshirt{width:50%}
